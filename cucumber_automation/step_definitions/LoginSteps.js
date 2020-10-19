@@ -17,7 +17,7 @@ When('I click on the button for the Login-Page', async function () {
   await goToHomePage()
 })
 
-When('I get to the Login-Page', async function () {
+Then('I get to the Login-Page', async function () {
   await clickToLogin()
 })
 

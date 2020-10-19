@@ -8,10 +8,10 @@ Feature: Login successfully
     Scenario: Not already logged in
     Given I am on the main page
     When I click on the button for the Login-Page
-    When I get to the Login-Page
+    Then I get to the Login-Page
     When I scroll down
-    When I fill in my username
-    When I type in the correct password and confirm via Enter    
+    And I fill in my username
+    And I type in the correct password and confirm via Enter    
     Then I am greeted
-    Then I go to the profile
-    Then I check if the email exists
+    When I go to the profile
+    Then I check if the email exists    
