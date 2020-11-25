@@ -3,7 +3,6 @@
 const { By, Key } = require('selenium-webdriver')
 const { username, password } = require('../config')
 const { openBrowser } = require('./browser')
-// Wenn ich einen Ordner require, dann wird index eingebunden, daher endet die Zeile darüber mit config
 
 // Variables for parameters. Change them to your need
 const submitButton = By.id('wp-submit')

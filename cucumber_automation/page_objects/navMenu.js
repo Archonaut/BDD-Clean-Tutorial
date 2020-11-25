@@ -13,10 +13,3 @@ async function clickToLogin () {
   await browser.findElement(NavToLogin).click()
 }
 module.exports.clickToLogin = clickToLogin
-
-/*
-async function example () {
-  let button = await driver.wait(until.elementLocated(By.id('826')), 10000)
-  await button.click()
-}
-*/
