@@ -17,6 +17,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "selenium-webdriver": "^3.x"
+    "selenium-webdriver": "^3.6.0"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.0"
   }
 }

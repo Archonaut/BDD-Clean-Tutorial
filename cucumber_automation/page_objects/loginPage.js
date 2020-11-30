@@ -13,7 +13,7 @@ const passWordField = By.id('user_pass')
 async function ScrollDown () {
   const browser = await openBrowser()
   const submitButtonNew = await browser.findElement(submitButton)
-  browser.executeScript('arguments[0].scrollIntoView(false);', submitButtonNew)
+  await browser.executeScript('arguments[0].scrollIntoView(false);', submitButtonNew)
 }
 module.exports.ScrollDown = ScrollDown
 

@@ -7,7 +7,7 @@ Feature: Login successfully
     Scenario: Not already logged in
     Given I am on the landing page
     When I enter my correct credentials                                          
-    Then I am on my profile page                                           
+    Then I am on my profile page
 
 #Scenario: The registered user logs in
 #  Given Martin is on the login-page
